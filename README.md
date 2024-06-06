@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# WEATHER APP PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Demo](#demo)
+4. [steps](#steps)
+5. [Usage](#usage)
+6. [Configuration](#configuration)
+7. [Technologies Used](#technologies-used)
+8. [Contributing](#contributing)
+9. [License](#license)
 
-## Available Scripts
+## Introduction
+This Weather App is a simple application that provides current weather information and forecasts for any city in the world that has a minimun population of 100.000 people. It fetches data from two APIs, a geo API and a weather API, then the data is displayed in a user-friendly interface.
 
-In the project directory, you can run:
+## Features
+- Current weather conditions (temperature, humidity, wind speed, feels like temperature and pressure)
+- 7-day weather forecast
+- Search functionality for cities worldwide
+- Responsive design for mobile and desktop use
 
-### `npm start`
+## Demo
+[Link to live demo](https://example.com/weather-app-demo)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Weather App Screenshot]()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app
+2. Install dependencies:
+   ```bash
+   npm install
+3. Obtain an API key from openWeatherMap and GeoDB
 
-### `npm test`
+### Usage
+1. Create a .env file in the root directory and add your GeoBD and openWeatherMap API key:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```env
+   REACT_APP_X_RapidAPI_Key=your_api_key_here
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+2. Start the application:
 
-### `npm run build`
+   ```bash
+   npm start
+3. View the app on your browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Configuration
+* API Key: Make sure to replace your_api_key_here in the .env file with your actual API key.
+* API Endpoint: By default, the app uses OpenWeatherMap API. You can change the API endpoint in the configuration file if necessary.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technologies Used
+* React.js
+* fetch (for API requests)
+* CSS3 for styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Contributing
+Contributions are welcome! Please follow these steps to contribute:
 
-### `npm run eject`
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+5. Open a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
