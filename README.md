@@ -21,7 +21,7 @@ This Weather App is a simple application that provides current weather informati
 - Responsive design for mobile and desktop use
 
 ## Demo
-[Link to live demo](https://example.com/weather-app-demo)
+[Link to live demo](https://bertholo.github.io/weather-app/)
 
 ![Weather App Screenshot]()
 
