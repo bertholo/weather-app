@@ -23,7 +23,7 @@ This Weather App is a simple application that provides current weather informati
 ## Demo
 [Link to live demo](https://bertholo.github.io/weather-app/)
 
-![Weather App Screenshot](public\screenshot\weather-app-pic.png)
+![Weather App Screenshot](public/screenshot/weather-app-pic.png)
 
 ### Steps
 1. Clone the repository:
