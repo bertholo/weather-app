@@ -6,7 +6,7 @@
 .daily-item {
     background-color: rgb(247, 190, 124);
     border-radius: 1.2em;
-    height: 4em;
+    height: 3em;
     margin: 5px;
     display: flex;
     align-items: center;
@@ -52,5 +52,5 @@
 }
 
 .daily-details-grid-item label:last-child {
-    color: #212121;
+    color: rgb(87, 84, 81);
 }
